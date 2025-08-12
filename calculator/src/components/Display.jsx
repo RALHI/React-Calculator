@@ -1,10 +1,6 @@
 import style from "../static/style/Display.module.css";
 
-const Display = () => {
-  const handleOnChange = (event) => {
-    console.log(event.target.value);
-  };
-
+const Display = ({ handleOnChange }) => {
   return (
     <input
       type="text"
